@@ -85,9 +85,10 @@
       ],
       "sources": [
         {
-          "type": "archive",
-          "url": "https://github.com/her01n/battery-info/archive/refs/tags/v0.2.tar.gz",
-          "sha256": "43ed42d0e741af7063d0634b9aa9178fb5c538906b8cb05b9ab05963a80e3c98"
+          "type": "git",
+          "url": "https://github.com/her01n/battery-info/",
+          "branch": "main",
+          "commit": "a67cf262eb82f17baa74cb68b8c1c537d518aad6"
         }
       ]
     }
