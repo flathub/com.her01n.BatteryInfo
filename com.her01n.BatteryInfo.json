@@ -1,12 +1,13 @@
 {
   "app-id": "com.her01n.BatteryInfo",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "45",
+  "runtime-version": "47",
   "sdk": "org.gnome.Sdk",
   "command": "battery-info",
   "finish-args": [
     "--socket=wayland",
     "--socket=fallback-x11",
+    "--share=ipc",
     "--device=dri",
     "--system-talk-name=org.freedesktop.UPower"
   ],
@@ -66,8 +67,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://ftp.gnu.org/gnu/g-golf/g-golf-0.8.0-rc-2.tar.gz",
-          "sha256": "0b21c82c4c09e3f8736994f655bb72ee41210ad927701737b8d89e6f7f2b54e1"
+          "url": "http://ftp.gnu.org/gnu/g-golf/g-golf-0.8.0-rc8.tar.gz",
+          "sha256": "d25b2fa2b565f84b9ad414251a009c97b753d80c71682578da59fb5b17b85246"
         }
       ]
     },
@@ -87,8 +88,7 @@
         {
           "type": "git",
           "url": "https://github.com/her01n/battery-info/",
-          "branch": "main",
-          "commit": "a67cf262eb82f17baa74cb68b8c1c537d518aad6"
+          "commit": "46d0e6f676cc08119aaca7d317dc3a9982d19ad5"
         }
       ]
     }
