@@ -1,7 +1,7 @@
 {
   "app-id": "com.her01n.BatteryInfo",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "47",
+  "runtime-version": "49",
   "sdk": "org.gnome.Sdk",
   "command": "battery-info",
   "finish-args": [
@@ -28,19 +28,22 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/ivmai/bdwgc/releases/download/v8.2.4/gc-8.2.4.tar.gz",
-          "sha256": "3d0d3cdbe077403d3106bb40f0cbb563413d6efdbb2a7e1cd6886595dec48fc2"
+          "url": "https://github.com/bdwgc/bdwgc/releases/download/v8.2.10/gc-8.2.10.tar.gz",
+          "sha256": "832cf4f7cf676b59582ed3b1bbd90a8d0e0ddbc3b11cb3b2096c5177ce39cc47"
         }
       ]
     },
     {
       "name": "guile",
       "buildsystem": "autotools",
+      "build-options": {
+        "cflags": "-std=gnu17"
+        },
       "sources": [
         {
           "type": "archive",
-          "url": "https://ftp.gnu.org/gnu/guile/guile-3.0.9.tar.gz",
-          "sha256": "18525079ad29a0d46d15c76581b5d91c8702301bfd821666d2e1d13726162811"
+          "url": "https://ftp.gnu.org/gnu/guile/guile-3.0.10.tar.xz",
+          "commit": "bd7168517fd526333446d4f7ab816527925634094fbd37322e17e2b8d8e76388"
         }
       ]
     },
@@ -67,8 +70,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://ftp.gnu.org/gnu/g-golf/g-golf-0.8.0-rc8.tar.gz",
-          "sha256": "d25b2fa2b565f84b9ad414251a009c97b753d80c71682578da59fb5b17b85246"
+          "url": "http://ftp.gnu.org/gnu/g-golf/g-golf-0.8.2.tar.gz",
+          "sha256": "7973be45c1c57248cfa2e5f5ac886b96fef5d97d212d3c77b3eb919ec2cd1d03"
         }
       ]
     },
