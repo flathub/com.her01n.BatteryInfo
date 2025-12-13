@@ -1,7 +1,7 @@
 {
   "app-id": "com.her01n.BatteryInfo",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "47",
+  "runtime-version": "48",
   "sdk": "org.gnome.Sdk",
   "command": "battery-info",
   "finish-args": [
@@ -67,8 +67,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://ftp.gnu.org/gnu/g-golf/g-golf-0.8.0-rc8.tar.gz",
-          "sha256": "d25b2fa2b565f84b9ad414251a009c97b753d80c71682578da59fb5b17b85246"
+          "url": "https://ftp.gnu.org/gnu/g-golf/g-golf-0.8.2.tar.gz",
+          "sha256": "7973be45c1c57248cfa2e5f5ac886b96fef5d97d212d3c77b3eb919ec2cd1d03"
         }
       ]
     },
